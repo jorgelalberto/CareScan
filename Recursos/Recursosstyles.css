@@ -9,12 +9,16 @@ html, body {
     background-color: rgb(197, 210, 224);
 }
 
+.nav {
+    background-color: rgb(145, 163, 182);
+}
+
 .nav li {
     display:inline;
     font-family:fantasy;
 }
 .li1 {
-    padding: 0 8%
+    padding: 0 8%;
 }
 .li3 {
 
@@ -122,10 +126,6 @@ html, body {
     text-align: center;
     width: 100%;
     font-size: min(3vw, 25px);
-}
-
-br {
-    line-height: 1000px;
 }
 
 ul {

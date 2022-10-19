@@ -9,6 +9,9 @@ html, body {
     background-color: rgb(197, 210, 224);
 }
 
+.nav {
+    background-color: rgb(145, 163, 182);
+}
 .nav li {
     display:inline;
     font-family:fantasy;
@@ -226,12 +229,6 @@ html, body {
     transform: translate(-50%, -50%);
     margin-top: min(15%, 175px);
     z-index: 10;
-}
-
-.Button {
-    outline-style: groove;
-    z-index: 10;
-    transition: 1.5s;
 }
 
 .ButtonProperties {
