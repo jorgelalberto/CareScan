@@ -1,49 +1,60 @@
 * {
     box-sizing: border-box;
-    font-family:fantasy;
-    color: rgb(6, 164, 6);
+    color: rgb(0, 0, 0);
 }
 
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url("Images/GatorskinBlue.png");
-}
-
-.nav ul {
-    margin: 0;
+    background-color: rgb(197, 210, 224);
 }
 
 .nav li {
-    display: inline;
+    display:inline;
+    font-family:fantasy;
+}
+.li1 {
+    padding: 0 8%
+}
+.li3 {
+
+    padding: 0 11.25vw
 }
 
+
 .nav a {
-    padding: .5em;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .mainNav {
-    max-width: 10000px;
+    width: auto;
     text-align: center;
-    font-size: 1.5vw;
-    font-weight: lighter;
+    font-size: 3.1vw;
 }
 
-.mainNav li {
-    padding: 0 5%;
-}
 
+
+/*welcome part of banner
 .welcome {
     text-align: center;
     margin: 0;
     font-size: 7vw;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -0.5vw -0.5vw 0 #000,
+    0   -0.5vw 0 #000,
+    0.5vw -0.5vw 0 #000,
+    0.5vw  0   0 #000,
+    0.5vw  0.5vw 0 #000,
+    0    0.5vw 0 #000,
+    -0.5vw  0.5vw 0 #000,
+    -0.5vw  0   0 #000;
 }
+*/
 
 .mainHeader {
-    background-image: url("Images/parkPPL.jpg");
+    background-image: url("Images/mainbanner4.jpg");
     background-size: cover;
     padding-bottom: 30px;
     /*Allow for header to stay in place while scrolling*/
@@ -56,39 +67,30 @@ html, body {
 }
 
 .resourceTotal {
-    width: 100%;
     text-align: center;
 }
 .resourceGroupName {
     /*Changes Distance between "Recursos" and "Bienvendios"*/
     margin: 30px;
-    text-align: center;
     font-size: 5vw;
-    color: white;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.3vw;
     text-shadow:
-        -0.5vw -0.5vw 0 #000,
-        0   -0.5vw 0 #000,
-        0.5vw -0.5vw 0 #000,
-        0.5vw  0   0 #000,
-        0.5vw  0.5vw 0 #000,
-        0    0.5vw 0 #000,
-        -0.5vw  0.5vw 0 #000,
-        -0.5vw  0   0 #000;
+        -0.1vw -0.1vw 0 rgb(255, 255, 255),
+        0   -0.1vw 0 rgb(255, 255, 255),
+        0.1vw -0.1vw 0 rgb(255, 255, 255),
+        0.1vw  0   0 rgb(255, 255, 255),
+        0.1vw  0.1vw 0 rgb(255, 255, 255),
+        0    0.1vw 0 rgb(255, 255, 255),
+        -0.1vw  0.1vw 0 rgb(255, 255, 255),
+        -0.1vw  0   0 rgb(255, 255, 255);
+    font-family:fantasy;
 }
 .resourceDescription {
     width: 80%;
     margin-top: max(-2vw, -7.5%);
     margin-left: 10%;
-    text-shadow:
-        -0.25vw -0.25vw 0 #000,
-        0   -0.25vw 0 #000,
-        0.25vw -0.25vw 0 #000,
-        0.25vw  0   0 #000,
-        0.25vw  0.25vw 0 #000,
-        0    0.25vw 0 #000,
-        -0.25vw  0.25vw 0 #000,
-        -0.25vw  0   0 #000;
-        color: rgba(62, 54, 66, 0.922);
+    font-size: 3vw;
 }
 
 .resources {
@@ -96,9 +98,10 @@ html, body {
     position: relative;
     */
     /*Changes Distance between boxes and "Recursos"*/
-    margin: 100px auto;
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
+    font-family:fantasy;
 }
 
 .resources .box {
@@ -112,7 +115,7 @@ html, body {
     margin-right: auto;
     margin-left: auto;
     /*Gives boxes their color*/
-    background: white;
+    background: rgb(255, 255, 255);
     width: 35vw;
     height: min(35vw, 300px);
     /*Sets distance between boxes AND affects box size*/
@@ -120,7 +123,7 @@ html, body {
     width: 35vw;
     /*CHANGE: give border*/
     outline-color: rgb(245, 93, 18);
-    outline-style:hidden;
+    border-style:solid;
 }
 
 /*Cool Effect*/
@@ -210,10 +213,11 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 10%;
-    box-shadow: 5px 10px 3px rgb(245, 93, 18);
+    box-shadow: 5px 10px 3px rgb(106, 114, 124);
     outline-style: groove;
     transition: 2.5s;
     z-index: 10;
+    background-color: rgb(197, 210, 224);
 }
 
 .languageButtons {
@@ -233,6 +237,6 @@ html, body {
 .ButtonProperties {
     height: 10vw;
     width: 15vw;
-    box-shadow: 5px 10px 3px rgb(0, 168, 252);
+    box-shadow: 5px 10px 3px rgb(124, 145, 155);
     font-size: 3vw;
 }
