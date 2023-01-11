@@ -1,0 +1,36 @@
+/* index.html*/
+.indexOpacity {
+    opacity: .3;
+    z-index: 1;
+}
+
+.languageTitle {
+    position: fixed;
+    height: 30vw;
+    width: 45vw;
+    font-size: 3vw;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+    box-shadow: 5px 10px 3px rgb(106, 114, 124);
+    outline-style: groove;
+    transition: 2.5s;
+    z-index: 10;
+    background-color: rgb(197, 210, 224);
+}
+
+.languageButtons {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: min(15%, 12rem);
+    z-index: 10;
+}
+
+.ButtonProperties {
+    height: 10vw;
+    width: 15vw;
+    box-shadow: 5px 10px 3px rgb(124, 145, 155);
+    font-size: 3vw;
+}
